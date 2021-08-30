@@ -23,7 +23,4 @@ if __name__ == "__main__":
 	conf = conf.setMaster("local[*]")
 	sc = SparkContext(conf=conf)
 	main(sc)
-
-
-# livro 'Analítica de dados com Hadoop', pág. 114
-# to run: spark-submit wc_app.py
+	
